@@ -1,5 +1,5 @@
 namespace empresa{
-    class Pessoa{
+    export class Pessoa{
         //informações da classe- definir o que a pessoa/objeto tem!
         private nome:string;
         private cpf:string;

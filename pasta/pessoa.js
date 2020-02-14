@@ -1,3 +1,4 @@
+"use strict";
 var empresa;
 (function (empresa) {
     var Pessoa = /** @class */ (function () {
@@ -25,4 +26,5 @@ var empresa;
         };
         return Pessoa;
     }());
+    empresa.Pessoa = Pessoa;
 })(empresa || (empresa = {}));
